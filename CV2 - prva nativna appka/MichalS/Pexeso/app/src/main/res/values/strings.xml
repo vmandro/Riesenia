@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pexeso</string>
+    <string name="pexeso">Pexeso</string>
+    <string name="pexesoText">pexeso</string>
+    <string name="reset">Reset</string>
+    <string name="score">Score: 0</string>
+    <string name="newgame">Play Again</string>
+</resources>

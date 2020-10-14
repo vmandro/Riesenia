@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Kilečkár</string>
+    <string name="odpoved_a">odpoved A</string>
+    <string name="odpoved_c">odpoved C</string>
+    <string name="odpoved_b">odpoved B</string>
+    <string name="odpoved_d">odpoved D</string>
+    <string name="_8e">8E</string>
+    <string name="_4e">4E</string>
+    <string name="_16e">16E</string>
+    <string name="_2e">2E</string>
+    <string name="tu_bude_otazka">tu bude otazka</string>
+    <string name="_1e">1E</string>
+    <string name="_32e">32E</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="_1024e">1024E</string>
+    <string name="_64e">64E</string>
+    <string name="_256e">256E</string>
+    <string name="_512e">512E</string>
+    <string name="take_it_home">Take it home</string>
+    <string name="_128e">128E</string>
+    <string name="_50_50">50:50</string>
+    <string name="ilustracia">ilustracia</string>
+
+    <!-- https://iqmilionar.estranky.sk/clanky/otazky-s-odpovedami-a_-b_-c_-d_.html -->
+    <string-array name="otazky">
+        <item>Kto je prezident Ameriky?</item>
+        <item>Skratka SSS znamena?</item>
+        <item>Koľko nôh má kohút?</item>
+        <item>Najväčší štát Európy mimo Ruska je:</item>
+        <item>Ak by ministrovi Gröhling-ovi odobrali titul Ing., volal by sa:</item>
+        <item>Čo môžeme vidieť na obrázku?</item>
+        <item>Čo je to ukulele</item>
+        <item>Ktorý z nasledujúcich prehliadačov sa používa na stiahnutie iného prehliadača?</item>
+        <item>Koľko váži kilo banánov?</item>
+        <item>Kto dostane prémiové body?</item>
+    </string-array>
+    <string-array name="odpovedeA">
+        <item>George Busch</item>
+        <item>Stručný slovník slov</item>
+        <item>2</item>
+        <item>Francúzsko</item>
+        <item>Ing. Gröhling</item>
+        <item>Sochu slobody</item>
+        <item>Bulharské hory</item>
+        <item>Firefox</item>
+        <item>8 rožkov</item>
+        <item>Ján Kroner</item>
+    </string-array>
+    <string-array name="odpovedeB">
+        <item>Barack Obama</item>
+        <item>Slangove slovenské slová</item>
+        <item>4</item>
+        <item>Ukrajina</item>
+        <item>Gröhl</item>
+        <item>Elektrický stĺp za Rimavskou Sobotou</item>
+        <item>vzácny kvet</item>
+        <item>Opera</item>
+        <item>2 pivá</item>
+        <item>Mário Hlavačka</item>
+    </string-array>
+    <string-array name="odpovedeC">
+        <item>Donald Trump</item>
+        <item>Synonimický slovník</item>
+        <item>6</item>
+        <item>Španielsko</item>
+        <item>iba Branislav</item>
+        <item>Eiffelovu vežu</item>
+        <item>jazero v Nórsku</item>
+        <item>Internet Explorer</item>
+        <item>5kg</item>
+        <item>Opice v ZOO</item>
+    </string-array>
+    <string-array name="odpovedeD">
+        <item>Skandar Obame</item>
+        <item>Slovenský slovník slov</item>
+        <item>8</item>
+        <item>Nemecko</item>
+        <item>Gröhling</item>
+        <item>Horskú dráhu</item>
+        <item>Hudobný nástroj</item>
+        <item>Chrome</item>
+        <item>1kg</item>
+        <item>Poštový holub</item>
+    </string-array>
+    <string-array name="spravneOdpovede">
+        <item>C</item>
+        <item>C</item>
+        <item>A</item>
+        <item>B</item>
+        <item>D</item>
+        <item>C</item>
+        <item>D</item>
+        <item>C</item>
+        <item>D</item>
+        <item>B</item>
+    </string-array>
+    <string-array name="obrazky">
+        <item>prezident</item>
+        <item>knihy</item>
+        <item>kohut</item>
+        <item>prezident</item>
+        <item>prezident</item>
+        <item>prezident</item>
+        <item>prezident</item>
+        <item>prezident</item>
+        <item>prezident</item>
+        <item>prezident</item>
+    </string-array>
+
+</resources>
