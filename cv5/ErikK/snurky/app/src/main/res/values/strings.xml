@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SNURKY</string>
+    <string name="cross0">0-cross</string>
+    <string name="cross1">1-crosss</string>
+    <string name="cross2">2-cross</string>
+    <string name="length">length</string>
+    <string name="zero">0</string>
+    <string name="clear">CLEAR</string>
+    <string name="save">SAVE</string>
+    <string name="s4">4</string>
+    <string name="s5">5</string>
+    <string name="s6">6</string>
+</resources>

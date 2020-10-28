@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.snurky.MainActivity">
+    <item
+        android:id="@+id/snurky4"
+        android:orderInCategory="100"
+        android:title="@string/s4"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/snurky5"
+        android:orderInCategory="100"
+        android:title="@string/s5"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/snurky6"
+        android:orderInCategory="100"
+        android:title="@string/s6"
+        app:showAsAction="never"/>
+</menu>

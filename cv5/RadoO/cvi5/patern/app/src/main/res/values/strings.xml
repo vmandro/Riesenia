@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">patern</string>
+    <string name="ulo_i">Uložiť</string>
+    <string name="zadaj_vzor">Zadaj vzor:</string>
+    <string name="re_tart">Reštart</string>
+    <string name="zadaj_ulo_en_vzor">Zadaj uložený vzor:</string>
+    <string name="textview">TextView</string>
+</resources>

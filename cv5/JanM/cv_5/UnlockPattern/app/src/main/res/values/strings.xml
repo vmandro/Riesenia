@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Unlock Pattern</string>
+    <string name="set_button">SET PATTERN</string>
+    <string name="check_button">CHECK PATTERN</string>
+    <string name="menu_item_2">2 x 2</string>
+    <string name="menu_item_3">3 x 3</string>
+    <string name="menu_item_4">4 x 4</string>
+</resources>

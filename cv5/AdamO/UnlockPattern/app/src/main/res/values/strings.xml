@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Unlock Pattern</string>
+    <string name="title">Unlock Pattern\nTester</string>
+    <string name="save">Save</string>
+    <string name="test">Test</string>
+    <string name="errorMessage">Incorrect pattern</string>
+    <string name="errorSize">Pattern for this size is not saved</string>
+</resources>
