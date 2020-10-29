@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Remember me... to do!</string>
+    <string name="title">Popis</string>
+    <string name="date">Datum konca</string>
+    <string name="text">Zadaj nazov ...</string>
+    <string name="btnDate">Zvol datum</string>
+    <string name="btnTime">Zvol cas</string>
+    <string name="btnConfirm">Potvrdit</string>
+    <string name="notification_title">Nezabudol si na nieco?</string>
+    <string name="notification_text">Naplanovana akcia: </string>
+    <string name="channel_name">app_channel</string>
+    <string name="channel_description">app_channel_description</string>
+    <string name="shared_pref_file">App_share_pref_file</string>
+    <string name="shared_preferences_names">names</string>
+    <string-array name="item_list">
+        <item>Test 1</item>
+        <item>Test 2</item>
+    </string-array>
+</resources>
