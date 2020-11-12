@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">BreakBall</string>
+    <string name="new_game">Nová Hra</string>
+    <string name="highscore_button">High Score</string>
+    <string name="highscore">High Score: </string>
+    <string name="score">Dosiahnuté score: </string>
+    <string name="moves_counter">Počet krokov na vyčistenie úrovne: </string>
+    <string name="balls_reset">Zresetovať lopty</string>
+
+    <string-array name="level_1">
+        <item>_____________</item>
+        <item>_____________</item>
+        <item>__IIIIIIIII__</item>
+        <item>__IVVVVVVVI__</item>
+        <item>__IVXXXXXVI__</item>
+        <item>__IVXLLLXVI__</item>
+        <item>__IVXLCLXVI__</item>
+        <item>__IVXLCLXVI__</item>
+        <item>__IVXLCLXVI__</item>
+        <item>__IVXLCLXVI__</item>
+        <item>__IVXLCLXVI__</item>
+        <item>__IVXLLLXVI__</item>
+        <item>__IVXXXXXVI__</item>
+        <item>__IVVVVVVVI__</item>
+        <item>__IIIIIIIII__</item>
+        <item>_____________</item>
+        <item>_____________</item>
+        <item>_____________</item>
+        <item>_____________</item>
+        <item>_____________</item>
+    </string-array>
+
+    <string-array name="level_2">
+        <item>____________</item>
+        <item>___CCCCC____</item>
+        <item>__CCCCCCCCC_</item>
+        <item>__DDDLLUL___</item>
+        <item>_DLDLLLULLL_</item>
+        <item>_DLDDLLLDLLL</item>
+        <item>_DDLLLLDDDD_</item>
+        <item>___LLLLLLL__</item>
+        <item>__CCVCCC____</item>
+        <item>_CCCVCCVCCC_</item>
+        <item>CCCCVVVVCCCC</item>
+        <item>CCCVXVVXVCLL</item>
+        <item>LLCVVVVVVLLL</item>
+        <item>LLLVVVVVVVLL</item>
+        <item>LLVVV__VVV__</item>
+        <item>_DDD____DDD_</item>
+        <item>DDDD____DDDD</item>
+        <item>____________</item>
+        <item>____________</item>
+        <item>____________</item>
+    </string-array>
+
+    <string-array name="level_3">
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_____XXXXX_____</item>
+        <item>___XXXXXXXXX___</item>
+        <item>__XXXXXXXXXXX__</item>
+        <item>_DUUUUUXUUUUUD_</item>
+        <item>_XU_UUUUU_UUUX_</item>
+        <item>_XU___UXU___UX_</item>
+        <item>_XXUUUXXXUUUXX_</item>
+        <item>_XXXXXXXXXXXXX_</item>
+        <item>_XXUXXXXXXXUXX_</item>
+        <item>_XXXUUUUUUUXXX_</item>
+        <item>__XXXXXXXXXXX__</item>
+        <item>___XXXXXXXXX___</item>
+        <item>_____XXXXX_____</item>
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_______________</item>
+    </string-array>
+
+    <string-array name="level_4">
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_____XXXXX_____</item>
+        <item>___XXXXXXXXX___</item>
+        <item>__XXXXXXXXXXX__</item>
+        <item>_XXXXXXXXXXXXX_</item>
+        <item>_XXXUUXXXUUXXX_</item>
+        <item>_XXUXXUXUXXUXX_</item>
+        <item>_XXXVVXXXVVXXX_</item>
+        <item>_XXXVVXXXVVXXX_</item>
+        <item>_XXXVVXXXVVXXX_</item>
+        <item>_XXXUUUUUUUXXX_</item>
+        <item>__XXVVXXXVVXX__</item>
+        <item>___XVVXXXVVX___</item>
+        <item>_____VXXXV_____</item>
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_______________</item>
+        <item>_______________</item>
+    </string-array>
+</resources>

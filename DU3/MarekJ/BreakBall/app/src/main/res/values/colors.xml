@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="levelBackground">#394648</color>
+    <color name="ball_color">#FFFFFF</color>
+    <color name="little_dot_color">#FFEB3B</color>
+
+
+    <color name="color_I">#DDFFF7</color>
+    <color name="color_V">#0055BF</color>
+    <color name="color_X">#FFEB3B</color>
+    <color name="color_L">#F28F3B</color>
+    <color name="color_C">#FF3864</color>
+    <color name="color_D">#9A4F00</color>
+    <color name="color_M">#A846A0</color>
+    <color name="color_U">#262626</color>
+</resources>

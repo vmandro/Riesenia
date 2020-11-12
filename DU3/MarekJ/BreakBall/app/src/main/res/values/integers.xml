@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="touches_to_destroy_I">1</integer>
+    <integer name="touches_to_destroy_V">5</integer>
+    <integer name="touches_to_destroy_X">10</integer>
+    <integer name="touches_to_destroy_L">25</integer>
+    <integer name="touches_to_destroy_C">50</integer>
+    <integer name="touches_to_destroy_D">100</integer>
+    <integer name="touches_to_destroy_M">200</integer>
+
+
+
+    <integer name="level_width_1">13</integer>
+    <integer name="level_height_1">20</integer>
+    <integer name="count_of_balls_level_1">40</integer>
+
+    <integer name="level_width_2">12</integer>
+    <integer name="level_height_2">20</integer>
+    <integer name="count_of_balls_level_2">50</integer>
+
+    <integer name="level_width_3">15</integer>
+    <integer name="level_height_3">20</integer>
+    <integer name="count_of_balls_level_3">40</integer>
+
+    <integer name="level_width_4">15</integer>
+    <integer name="level_height_4">20</integer>
+    <integer name="count_of_balls_level_4">40</integer>
+</resources>
