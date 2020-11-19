@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sendSMS"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="64dp"
+        android:onClick="sendSMS"
+        android:text="warning"
+        android:textColor="#E10808"
+        android:textSize="30dp"
+        app:backgroundTint="#D3D014"
+        app:iconTint="#F8F4F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sendSMS2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:onClick="sendSMSAlarm"
+        android:text="alarm"
+        android:textColor="#E30BDF"
+        android:textSize="30dp"
+        app:backgroundTint="#3FF10E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendSMS" />
+
+    <Button
+        android:id="@+id/sendSMS3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:onClick="sendSMSUrgent"
+        android:text="urgent"
+        android:textColorLink="#FFFFFF"
+        android:textSize="30dp"
+        app:backgroundTint="#E40A0A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendSMS2" />
+
+    <Button
+        android:id="@+id/locateGPS"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="gps"
+        android:text="@string/gps"
+        android:textColor="#673AB7"
+        android:textColorLink="#06ED0F"
+        android:textSize="30dp"
+        app:backgroundTint="#D8C30D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/contactPicker"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="contactPicker"
+        android:textSize="20dp"
+        android:text="@string/contacts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

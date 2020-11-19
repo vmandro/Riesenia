@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="warning"
+        android:title="WARNING"
+        android:summary="SMS will be sent 1 time."/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="alarm"
+        android:title="ALARM"
+        android:summary="SMS will be sent 2 times."/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="urgent"
+        android:title="URGENT"
+        android:summary="SMS will be sent 3 times."/>
+
+</PreferenceScreen>

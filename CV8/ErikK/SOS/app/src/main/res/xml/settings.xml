@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:textColor="#E91E63"
+        android:title="Contacts picker">
+
+        <EditTextPreference
+            android:key="contact1"
+            android:summary="Set your contact"
+            android:title="First Contact" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="contact2"
+            android:summary="Set your contact"
+            android:title="Second Contact" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="contact3"
+            android:onClick="contactPicker"
+            android:summary="Set your contact"
+            android:title="Third Contact" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:textColor="#E91E63"
+        android:title="Message text">
+
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="warning"
+            android:summary="Set text"
+            android:title="Warning message text" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="alarm"
+            android:summary="Set text"
+            android:title="Alarm message text" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="urgent"
+            android:summary="Set text"
+            android:title="Urgent message text" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SOS, Please!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="name_phone_number">name/phone number</string>
+    <string name="button">None</string>
+    <string name="Contact1">Contact 1</string>
+    <string name="Contact2">Contact 2</string>
+    <string name="Contact3">Contact 3</string>
+    <string name="contacts">Contacts</string>
+    <string name="title_activity_settings2">SettingsActivity2</string>
+    <string name="personalInfo">Personal Information</string>
+    <string name="location">Location</string>
+    <string name="currentContact">Current Contact</string>
+    <string name="gps_setting">GPS Settings</string>
+    <string name="urgent">URGENT</string>
+    <string name="alarming">ALARMING</string>
+    <string name="warning">WARNING</string>
+
+</resources>

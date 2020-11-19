@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/personalInfo">
+
+        <EditTextPreference
+            android:id="@+id/pref_name"
+            android:dialogIcon="@drawable/ic_insert_emoticon_black_36dp"
+            android:icon="@drawable/ic_insert_emoticon_black_36dp"
+            android:key="user"
+            android:summary="Set your name"
+            android:title="Name" />
+
+        <EditTextPreference
+            android:id="@+id/pref_phone"
+            android:dialogIcon="@drawable/ic_phone_in_talk_black_36dp"
+            android:icon="@drawable/ic_phone_in_talk_black_36dp"
+            android:inputType="phone"
+            android:key="phone"
+            android:summary="Set your phone number"
+            android:title="Phone Number" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/contacts">
+
+        <Preference
+            android:id="@+id/pref_contact1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_account_circle_black_36dp"
+            android:key="contact_1"
+            android:title="@string/Contact1" />
+
+        <Preference
+            android:id="@+id/pref_contact2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_account_circle_black_36dp"
+            android:key="contact_2"
+            android:title="@string/Contact2" />
+
+        <Preference
+            android:id="@+id/pref_contact3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_account_circle_black_36dp"
+            android:key="contact_3"
+            android:title="@string/Contact3" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

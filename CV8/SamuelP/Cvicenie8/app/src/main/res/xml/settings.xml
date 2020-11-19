@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="username"
+        android:summary="Set your name"
+        android:title="Name" />
+    <EditTextPreference
+        android:inputType="phone"
+        android:key="phonenumber"
+        android:summary="Set your phone number"
+        android:title="Phone Number Warning" />
+
+    <EditTextPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:key="phonenumber2"
+        android:summary="Set your phone number"
+        android:title="Phone Number Warning 2" />
+    <EditTextPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:key="phonenumberalarm"
+        android:summary="Set your phone number"
+        android:title="Phone Number Alarm" />
+    <EditTextPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:key="phonenumberalarm2"
+        android:summary="Set your phone number"
+        android:title="Phone Number Alarm 2" />
+    <EditTextPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:key="phonenumberurgent"
+        android:summary="Set your phone number"
+        android:title="Phone Number Urgent" />
+    <EditTextPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:key="phonenumberurgent2"
+        android:summary="Set your phone number"
+        android:title="Phone Number Urgent 2" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useWifi"
+        android:summary="use wifi"
+        android:title="WiFi" />
+
+    <CheckBoxPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="true"
+        android:key="useGPS"
+        android:summary="use GPS"
+        android:title="GPS" />
+
+    <ListPreference
+        android:entries="@array/repetionNames"
+        android:entryValues="@array/repetionValues"
+        android:key="repCount"
+        android:summary="Set repetition count"
+        android:title="Repeat" />
+
+</PreferenceScreen>

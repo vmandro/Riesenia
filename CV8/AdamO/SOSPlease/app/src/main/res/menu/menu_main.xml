@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.olsinoo.sosplease.MainActivity">
+    <item
+        android:id="@+id/gpsSettings"
+        android:icon="@drawable/ic_explore_24px"
+        android:title="@string/gps_setting"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuSettings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/menu_settings"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>
