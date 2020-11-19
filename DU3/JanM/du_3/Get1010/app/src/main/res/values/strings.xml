@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Get 1010</string>
+    <string name="button_play">PLAY</string>
+    <string name="button_exit">EXIT</string>
+    <string name="code_vma">01010110 01001101 01000001</string>
+    <string name="code_jm">01001010 00101110 01001101 00101110</string>
+    <string name="button_menu">MENU</string>
+</resources>

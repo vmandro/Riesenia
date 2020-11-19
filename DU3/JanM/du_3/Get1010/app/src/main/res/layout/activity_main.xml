@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appNameText2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="Binary Version"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/appNameText"
+        app:layout_constraintStart_toStartOf="@+id/appNameText"
+        app:layout_constraintTop_toBottomOf="@+id/appNameText" />
+
+    <Button
+        android:id="@+id/playButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="serif-monospace"
+        android:text="@string/button_play"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scoreText"
+        app:layout_constraintEnd_toEndOf="@+id/appNameText"
+        app:layout_constraintStart_toStartOf="@+id/appNameText" />
+
+    <Button
+        android:id="@+id/exitButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="serif-monospace"
+        android:text="@string/button_exit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/appNameText"
+        app:layout_constraintStart_toStartOf="@+id/appNameText"
+        app:layout_constraintTop_toBottomOf="@+id/scoreText" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="serif-monospace"
+        android:text="BEST: 0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/appNameText"
+        app:layout_constraintStart_toStartOf="@+id/appNameText"
+        app:layout_constraintTop_toBottomOf="@+id/appNameText2" />
+
+    <TextView
+        android:id="@+id/vmaText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="serif-monospace"
+        android:text="@string/code_vma"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/playButton"
+        app:layout_constraintEnd_toEndOf="@+id/appNameText"
+        app:layout_constraintStart_toStartOf="@+id/appNameText" />
+
+    <TextView
+        android:id="@+id/jmText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="serif-monospace"
+        android:text="@string/code_jm"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/appNameText"
+        app:layout_constraintStart_toStartOf="@+id/appNameText"
+        app:layout_constraintTop_toBottomOf="@+id/exitButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

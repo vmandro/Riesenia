@@ -1,0 +1,26 @@
+Kvoli nedostatku fantazie som si vybral klasiku ARKANOID
+
+	- V uvodnej aktivite si hrac moze vybral: 
+		- ci chce hrat so zvukom alebo nie, zvuk si na uvodnej 
+		  aktivity, pocas hry len klopka gulicka pri naraze a 
+		  pri konci hry je win resp. lose sound
+		
+		- ci chce hard verziu, co v podstate len zmensi hraciu 
+		  plochu hraca
+		  
+	- Po zacati hry si potiahnutim prsta (mysi) zvoli uvodnu poziciu 
+	  a ked uvolni dotyk, tak lopticka vyleti a hra sa zacina. Lop-
+	  ticka sa odraza od kazdeho predmetu v hracej ploche. Kadzu koc-
+	  ku treba trafit dva krat aby uplne zmyzla. Na rozbitie vsetkych 
+	  kociek ma hrac cas 60 sekund, potom prehra. Rovnako tak prehra, 
+	  ak lopticka padne na spodnu cast steny. Vyhra naopak v pripade, 
+	  ze mu nestala ziadna kocka v casovom limite. V obidvoch pri-
+	  padoch mu o dovode ukoncenia hry pride oznamenie v Dialogu.
+	  
+	  Pocas hry moze hrac hry pausnut, alebo restartovat alebo sa vra-
+	  tit na uvodnu aktivitu (sipkou spat).
+	  
+	  
+	  
+- Buggy dufam nie su ziadne :D
+	 
