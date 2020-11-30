@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GeoCacher</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="youarehere">You are here</string>
+    <string name="targetloc">Your target location</string>
+    <string name="posLat">Lat: </string>
+    <string name="posLong">Long: </string>
+    <string name="targetLat">Lat: </string>
+    <string name="targetLong">Long: </string>
+    <string name="navigate">NAVIGATE</string>
+    <string name="back">BACK</string>
+    <string name="insert_latitute_value">insert latitute value</string>
+    <string name="insert_longitute_value">insert longitute value</string>
+    <string name="button">Button</string>
+    <string name="address">address</string>
+    <string name="info_message">INFO MESSAGE</string>
+</resources>
