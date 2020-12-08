@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GPSdraw</string>
+    <string name="pause">PAUSE</string>
+    <string name="start">START</string>
+    <string name="clear">CLEAR</string>
+    <string name="save_img">SAVE IMG</string>
+</resources>
