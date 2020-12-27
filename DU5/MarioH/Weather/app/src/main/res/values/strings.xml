@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="sunset_time">Sunset time:</string>
+    <string name="sunrise_time">Sunrise time:</string>
+    <string name="updated">Updated:</string>
+    <string name="wind">Wind:</string>
+    <string name="feels_like">Feels like:</string>
+    <string name="max_min_temperature">Max/Min temperature:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="visibility">Visibility:</string>
+</resources>

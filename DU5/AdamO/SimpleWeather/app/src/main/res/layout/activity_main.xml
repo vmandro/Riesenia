@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainConstraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_w_grad_background"
+    tools:context=".MainActivity">
+
+    <Space
+        android:id="@+id/topSpace"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/status_bar_standard_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reloadButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_reload_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topSpace" />
+
+    <TextView
+        android:id="@+id/textWeatherCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/bebasneue_regular"
+        android:text="@string/unknown"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/fabWeatherImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topSpace"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/textWeatherConditionExact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bebasneue_regular"
+        android:text="@string/unknown"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/fabWeatherImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWeatherCondition"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabWeatherImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:contentDescription="@string/weather_desc"
+        android:focusable="false"
+        app:backgroundTint="@color/colorDarkAccentShadow"
+        app:elevation="0dp"
+        app:fabCustomSize="@dimen/fab_size"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toTopOf="@+id/topHDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topSpace"
+        app:layout_constraintVertical_bias="0.6"
+        app:maxImageSize="@dimen/fab_img_size"
+        app:rippleColor="@color/darkRipple"
+        app:srcCompat="@drawable/ic_mist" />
+
+    <TextView
+        android:id="@+id/textCelsius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bebasneue_regular"
+        android:text="@string/unknown"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/topHDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fabWeatherImage" />
+
+    <View
+        android:id="@+id/topHDivider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topSpace" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottomCardLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/card_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topHDivider">
+
+        <TextView
+            android:id="@+id/textViewHumidityText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/wind"
+            app:layout_constraintBottom_toTopOf="@+id/innerLayoutWind"
+            app:layout_constraintEnd_toEndOf="@+id/innerLayoutWind"
+            app:layout_constraintStart_toStartOf="@+id/innerLayoutWind" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/innerLayoutWind"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/card_bg_dark"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewHumidity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/divider6"
+            app:layout_constraintTop_toTopOf="@+id/textViewHumidityText">
+
+            <View
+                android:id="@+id/dividerWindV"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/dividerWindH"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/dividerWindV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewWindSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bebasneue_regular"
+                android:text="@string/unknown"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toTopOf="@+id/dividerWindH"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/dividerWindV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewWindDegree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bebasneue_regular"
+                android:text="@string/unknown"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/dividerWindV"
+                app:layout_constraintTop_toBottomOf="@+id/dividerWindH" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/wind"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/dividerWindV"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_wind" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMaxTemp"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.80" />
+
+        <TextView
+            android:id="@+id/textViewMaxTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/unknown"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/fabMaxTemp"
+            app:layout_constraintStart_toStartOf="@+id/fabMaxTemp"
+            app:layout_constraintTop_toBottomOf="@+id/fabMaxTemp" />
+
+        <TextView
+            android:id="@+id/textViewMaxTempText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/maximal_temperature"
+            app:layout_constraintBottom_toTopOf="@+id/fabMaxTemp"
+            app:layout_constraintEnd_toEndOf="@+id/fabMaxTemp"
+            app:layout_constraintStart_toStartOf="@+id/fabMaxTemp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabMaxTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:clickable="false"
+            android:contentDescription="@string/maximal_temperature"
+            app:backgroundTint="@color/colorDarkAccent"
+            app:fabSize="mini"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/divider8"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_hot" />
+
+        <TextView
+            android:id="@+id/textViewHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/unknown"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/fabHumidity"
+            app:layout_constraintStart_toStartOf="@+id/fabHumidity"
+            app:layout_constraintTop_toBottomOf="@+id/fabHumidity" />
+
+        <TextView
+            android:id="@+id/textViewHumidityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/humidity"
+            app:layout_constraintBottom_toTopOf="@+id/fabHumidity"
+            app:layout_constraintEnd_toEndOf="@+id/fabHumidity"
+            app:layout_constraintStart_toStartOf="@+id/fabHumidity" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:contentDescription="@string/humidity"
+            app:backgroundTint="@color/colorDarkAccent"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toTopOf="@+id/divider4"
+            app:layout_constraintEnd_toStartOf="@+id/divider6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider7"
+            app:layout_constraintVertical_bias="0.3"
+            app:srcCompat="@drawable/ic_humidity" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabMinTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:clickable="false"
+            android:contentDescription="@string/minimal_temperature"
+            app:backgroundTint="@color/colorDarkAccent"
+            app:fabSize="mini"
+            app:layout_constraintEnd_toStartOf="@+id/divider8"
+            app:layout_constraintStart_toEndOf="@+id/divider6"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_cold" />
+
+        <TextView
+            android:id="@+id/textViewMinTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/unknown"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/fabMinTemp"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="@+id/fabMinTemp"
+            app:layout_constraintTop_toBottomOf="@+id/fabMinTemp" />
+
+        <TextView
+            android:id="@+id/textViewMinTempText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/minimal_temperature"
+            app:layout_constraintBottom_toTopOf="@+id/fabMinTemp"
+            app:layout_constraintEnd_toEndOf="@+id/fabMinTemp"
+            app:layout_constraintStart_toStartOf="@+id/fabMinTemp" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="10dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewSunrise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/unknown"
+            app:layout_constraintBottom_toTopOf="@+id/divider4"
+            app:layout_constraintEnd_toStartOf="@+id/divider6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewSunset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="@string/unknown"
+            app:layout_constraintBottom_toTopOf="@+id/divider4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/divider6" />
+
+        <ImageView
+            android:id="@+id/imageViewSunrise"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/sunrise"
+            android:paddingBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/divider6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider4"
+            app:srcCompat="@drawable/ic_sunrise" />
+
+        <ImageView
+            android:id="@+id/imageViewSunset"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/sunset"
+            android:paddingBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/divider6"
+            app:layout_constraintTop_toBottomOf="@+id/divider4"
+            app:srcCompat="@drawable/ic_sunset" />
+
+        <LinearLayout
+            android:id="@+id/innerLayoutFeelsLike"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/card_bg_dark"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/divider7"
+            app:layout_constraintEnd_toStartOf="@+id/divider6"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textViewFeeling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bebasneue_regular"
+                android:gravity="center"
+                android:text="@string/feels_like"
+                android:textColor="@android:color/white"
+                tools:layout_editor_absoluteX="167dp"
+                tools:layout_editor_absoluteY="137dp" />
+
+            <TextView
+                android:id="@+id/textViewFeelsLikeTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bebasneue_regular"
+                android:gravity="center"
+                android:text="@string/unknown"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="167dp"
+                tools:layout_editor_absoluteY="137dp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/divider7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/divider6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewArrow"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewSunset"
+            app:layout_constraintStart_toEndOf="@+id/imageViewSunrise"
+            app:layout_constraintTop_toBottomOf="@+id/divider4"
+            app:srcCompat="@drawable/ic_arrow_left_to_right" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/bebasneue_regular"
+        android:text="@string/unknown"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomCardLayout"
+        app:layout_constraintEnd_toEndOf="@+id/bottomCardLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

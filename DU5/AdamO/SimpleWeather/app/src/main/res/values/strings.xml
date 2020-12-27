@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simple Weather</string>
+    <string name="reload">Reload</string>
+    <string name="weather_desc">Icon representing current weather.</string>
+    <string name="unknown">_???_</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="humidity">Humidity</string>
+    <string name="maximal_temperature">Max</string>
+    <string name="minimal_temperature">Min</string>
+    <string name="feels_like">Feels like</string>
+    <string name="wind">Wind</string>
+    <string name="arrow">Arrow</string>
+</resources>

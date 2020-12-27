@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#555555</color>
+    <color name="colorPrimaryDark">#3C3C3C</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="thunderstormBg">#7E88C1</color>
+    <color name="drizzleBg">#CCF2F8</color>
+    <color name="rainBg">#88CFE4</color>
+    <color name="snowBg">#FFFFFF</color>
+    <color name="clearBg">#F6E86E</color>
+    <color name="cloudsBg">#DDDDDD</color>
+</resources>

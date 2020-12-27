@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.olsinoo.sosplease.MainActivity">
+    <item
+        android:id="@+id/menuReload"
+        android:icon="@drawable/ic_reload"
+        android:title="@string/reload"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

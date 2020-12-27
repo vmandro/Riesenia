@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": 17.4,
+    "lat": 48.22
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "oblačno",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 6.58,
+    "feels_like": 1.77,
+    "temp_min": 6.11,
+    "temp_max": 7,
+    "pressure": 1008,
+    "humidity": 75
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 4.6,
+    "deg": 80
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1607532603,
+  "sys": {
+    "type": 1,
+    "id": 7046,
+    "country": "SK",
+    "sunrise": 1607495371,
+    "sunset": 1607525791
+  },
+  "timezone": 3600,
+  "id": 3057692,
+  "name": "Senec",
+  "cod": 200
+}

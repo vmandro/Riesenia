@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8F3B21</color>
+    <color name="colorPrimaryDark">#552618</color>
+    <color name="colorAccent">#C9F3FF</color>
+    <color name="colorDarkAccent">#002D50</color>
+    <color name="colorDarkAccentShadow">#4DFFFFFF</color>
+    <color name="colorDistBack">#FF00112b</color>
+    <color name="colorDistText">#FF2c6883</color>
+    <color name="nuffin">#00FFFFFF</color>
+    <color name="darkRipple">#B3000000</color>
+    <color name="semiTransparentAccent">#B5FFFFFF</color>
+    <color name="bottomBackground">#80000000</color>
+</resources>
